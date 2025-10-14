@@ -196,23 +196,43 @@
 										font-size: 2em !important;
 									}
 									
-									#booking .close {
-										background: none;
-										border:none;
-									}
-
-
 									#booking {
-									background: #fbfbfb !important;
-									background-image: none !important;
+									    flex-direction: column !important;
+									    background: #fbfbfb !important;
+									    background-image: none !important;
+									    padding: 0 !important;
 									}
+									
 									#booking:before {
-									background: none !important;
+									    background: none !important;
 									}
-
+									
+									#booking > div {
+									    flex: 1 1 100% !important;
+									    min-width: 100% !important;
+									    width: 100% !important;
+									}
+									
+									#booking > div:first-child {
+									    padding: 2em !important;
+									}
+									
+									#booking > div:last-child {
+									    min-height: 300px !important;
+									}
+									
+									#booking h2 {
+									    font-size: 2em !important;
+									}
+									
+									#booking .close {
+									    background: none;
+									    border: none;
+									}
+									
 									#booking .close:before,
 									#booking .close:after {
-    								background-color: #000000 !important;
+									    background-color: #000000 !important;
 									}
 									
 								}
