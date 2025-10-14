@@ -179,8 +179,8 @@
 								</ul>
 							</div>
 							
-							<div style="flex: 0 0 50%; background-color: #9b7f94; position: relative; min-height: 400px; min-width: 300px;overflow: hidden;">
-								<img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070" alt="Gericht" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block; margin: 0; padding: 0;">
+							<div style="flex: 0 0 50%; background-color: #9b7f94; position: relative; min-height: 400px; min-width: 300px;">
+								<img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070" alt="Gericht" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; display: block;">
 							</div>
 							
 							<style>
@@ -196,44 +196,34 @@
 										font-size: 2em !important;
 									}
 									
-									#booking {
-									    flex-direction: column !important;
-									    background: #fbfbfb !important;
-									    background-image: none !important;
-									    padding: 0 !important;
-									}
-									
-									#booking:before {
-									    background: none !important;
-									}
-									
-									#booking > div {
-									    flex: 1 1 100% !important;
-									    min-width: 100% !important;
-									    width: 100% !important;
-									}
-									
-									#booking > div:first-child {
-									    padding: 2em !important;
-									}
-									
-									#booking > div:last-child {
-									    min-height: 300px !important;
-									}
-									
-									#booking h2 {
-									    font-size: 2em !important;
-									}
-									
 									#booking .close {
-									    background: none;
-									    border: none;
+										background: none;
+										border:none;
 									}
-									
+
+
+									#booking {
+									background: #fbfbfb !important;
+									background-image: none !important;
+									}
+									#booking:before {
+									background: none !important;
+									}
+
 									#booking .close:before,
 									#booking .close:after {
-									    background-color: #000000 !important;
+    								background-color: #000000 !important;
 									}
+									#booking > div:last-child {
+							        min-width: 100% !important;
+							        width: 100% !important;
+								    }
+								    
+								    #booking > div:last-child img {
+								        width: 100% !important;
+								        margin: 0 !important;
+								        padding: 0 !important;
+								    }
 									
 								}
 
